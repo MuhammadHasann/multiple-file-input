@@ -1,0 +1,18 @@
+.file_info::-webkit-scrollbar {
+  @apply w-6;
+}
+
+.file_info::-webkit-scrollbar-track {
+  @apply bg-transparent rounded-full;
+}
+
+.file_info::-webkit-scrollbar-thumb {
+  border: 8px solid;
+  @apply cursor-grab bg-primary border-light rounded-full;
+}
+.file_info::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary bg-opacity-75;
+}
+.file_info::-webkit-scrollbar-thumb:active {
+  @apply cursor-grabbing bg-second;
+}
